@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  nude-node:
+    build: ./flatris
+    ports:
+    - "80:3000"
